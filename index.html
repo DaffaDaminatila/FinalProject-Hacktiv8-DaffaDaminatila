@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        background-image: url("https://img.freepik.com/free-vector/black-spooky-castle-flying-dragon-canyon-with-mountains-forest-cartoon-fantasy-illustration-with-medieval-palace-with-towers-creepy-beast-with-wings-rocks-pine-trees_107791-4592.jpg?w=1380&t=st=1695381401~exp=1695382001~hmac=70367149be7e7516132fd6b4a16d9cad166c12a5a3b24208b6a2bb314014517f");
+        min-height: 100vh;
+        color: rgb(255, 119, 0);
+      }
+
+      #header {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+
+        width: 100%;
+        align-items: center;
+        padding: 0 1em;
+        box-sizing: border-box;
+      }
+      #logo-wrapper img {
+        width: 150px;
+      }
+
+      nav ul {
+        display: flex;
+      }
+      nav ul li {
+        list-style-type: none;
+        padding: 0 0.5em;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+      }
+
+      /* Profile section styles */
+      .profile-section {
+        text-align: center;
+        margin: 50px auto;
+      }
+
+      .profile-content img {
+        max-width: 20%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      .profile-content h2 {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+      .profile-content p {
+        font-size: 16px;
+        color: #333;
+        margin-top: 10px;
+      }
+
+      .profile-content ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+      }
+
+      .profile-content ul li {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Joan&family=Merienda:wght@700&family=Roboto+Slab&family=Vidaloka&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Joan", serif;
+      }
+
+      .banner {
+        font-size: 40px;
+        padding-top: 120px;
+        padding-left: 50px;
+      }
+      .judul {
+        text-align: center;
+        line-height: 50px;
+        font-size: larger;
+      }
+      .transparent-button {
+        background-color: transparent;
+        border: 2px solid orange; /* Warna garis pinggir tombol */
+        color: orange; /* Warna teks tombol */
+        padding: 10px 20px; /* Spasi dalam tombol */
+        font-size: 16px; /* Ukuran font teks tombol */
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .transparent-button:hover {
+        background-color: orange; /* Warna latar belakang saat dihover */
+        color: #fff; /* Warna teks saat dihover */
+      }
+    </style>
+  </head>
+  <body>
+    <section id="header">
+      <div id="logo-wrapper">
+        <img
+          src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/5332400363489/Hacktiv8-1a3839af-310a-4509-8a9b-bcf7bc3203e7.png?tr=q-60,c-at_max,w-720,h-1280&_src=imagekit"
+          alt="Logo"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="experience.html">Experiences</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a href="awards.html">Awards</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <div>
+      <div class="banner"></div>
+      <div class="judul">
+        <h4 class="episodeone">Final Project</h4>
+        <h3>INTENSIVE BOOTCAMP</h3>
+        <h2>BELAJAR LANGKAH FUNDAMENTAL UNTUK MENJADI WEB PROGRAMMER</h2>
+        <h4>by <span>Hacktiv8</span></h4>
+        <a href="about.html">
+          <button class="transparent-button">About</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
